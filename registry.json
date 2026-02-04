@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "name": "hello-world",
+    "description": "Example workflow template showing the basic structure",
+    "version": "1.0.0"
+  }
+]
