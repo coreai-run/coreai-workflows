@@ -1,0 +1,36 @@
+# News Pipeline - Default Configuration
+# Orchestrates news reader skills
+
+# Pipeline behavior
+workflow:
+  pause_between_steps: false
+  summarize_outputs: true
+  continue_on_error: true
+
+# Which readers to include (order matters)
+readers:
+  - reddit-reader
+  - hackernews-reader
+  - github-reader
+  - rss-reader
+  # - youtube-reader   # Uncomment if YOUTUBE_API_KEY configured
+  # - inbox-reader     # Uncomment if Gmail OAuth configured
+
+# Global time window (overrides individual skills)
+hours: 24
+
+# Global limit per source
+limit: 15
+
+# Deduplication
+dedupe:
+  enabled: true
+  by: url           # url | title_similarity
+  similarity_threshold: 0.8
+
+# Final output settings
+output:
+  format: markdown
+  group_by_source: true
+  max_items_per_source: 10
+  include_summary: true
