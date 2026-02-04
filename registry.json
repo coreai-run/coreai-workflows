@@ -1,7 +1,8 @@
 [
   {
     "name": "hello-world",
-    "description": "Example workflow template showing the basic structure",
-    "version": "1.0.0"
+    "description": "Example workflow template using namespace format (workflow:name)",
+    "version": "1.0.0",
+    "invoke": "workflow:hello-world"
   }
 ]

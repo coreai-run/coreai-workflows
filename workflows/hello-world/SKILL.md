@@ -1,11 +1,11 @@
 ---
-name: hello-world
-description: Example workflow template showing the basic structure
+name: workflow:hello-world
+description: Example workflow template using namespace format (workflow:name)
 ---
 
 # Hello World Workflow
 
-This is a minimal workflow template demonstrating the COREAI workflow structure.
+This is a minimal workflow template demonstrating the COREAI workflow structure with namespace-based invocation.
 
 ## What it does
 
