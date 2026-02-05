@@ -1,5 +1,5 @@
 ---
-workflow: news
+name: workflow:news
 type: pipeline
 description: Aggregate news from multiple sources. USE WHEN user says 'radar', 'news', 'noticias', 'trending', 'news digest', 'what's happening'.
 ---
