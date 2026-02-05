@@ -1,5 +1,5 @@
 ---
-name: workflow:hello-world
+name: workflow-hello-world
 description: Example workflow template using namespace format (workflow:name)
 ---
 
